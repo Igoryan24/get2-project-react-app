@@ -1,0 +1,8 @@
+$transition: all 0.5s ease-out;
+
+@mixin Photo ($value) {
+    height: $value;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}

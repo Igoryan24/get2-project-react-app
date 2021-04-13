@@ -1,0 +1,30 @@
+@import './variables';
+
+@media(min-width: 1200px) {
+    .swiper-container {
+        min-width: 1170px;
+    }
+}
+
+@media(min-width: 992px) {
+    .swiper-container {
+        max-width: 970px;
+    }
+}
+
+@media(min-width: 768px) {
+    .swiper-container {
+        width: 750px;
+        padding: 5px;
+    }
+}
+/*@media(min-width: 480px) {
+    .swiper-container {
+        width: 320px;
+    }
+}*/
+@media(max-width: 767px) {
+    .swiper-container {
+        width: 300px;
+    }
+}
